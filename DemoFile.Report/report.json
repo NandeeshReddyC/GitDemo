@@ -199,6 +199,24 @@
           "x": 9.54,
           "y": 0.00,
           "z": 0.00
+        },
+        {
+          "config": "{\"name\":\"23562f32d7400ede65bc\",\"layouts\":[{\"id\":0,\"position\":{\"x\":475.2317880794702,\"y\":0,\"z\":1,\"width\":456.158940397351,\"height\":184.37086092715234,\"tabOrder\":1}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"Sum(Sheet1.OrderQuantity)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"s\",\"Entity\":\"Sheet1\",\"Type\":0}],\"Select\":[{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"s\"}},\"Property\":\"OrderQuantity\"}},\"Function\":0},\"Name\":\"Sum(Sheet1.OrderQuantity)\",\"NativeReferenceName\":\"OrderQuantity\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"s\"}},\"Property\":\"OrderQuantity\"}},\"Function\":0}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true}}",
+          "filters": "[]",
+          "height": 184.37,
+          "width": 456.16,
+          "x": 475.23,
+          "y": 0.00,
+          "z": 1.00
+        },
+        {
+          "config": "{\"name\":\"bb1470e6c0d588eedd6b\",\"layouts\":[{\"id\":0,\"position\":{\"x\":475,\"y\":184,\"width\":456,\"height\":536,\"z\":2,\"tabOrder\":2}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"CountNonNull(Sheet1.TerritoryKey)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"s\",\"Entity\":\"Sheet1\",\"Type\":0}],\"Select\":[{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"s\"}},\"Property\":\"TerritoryKey\"}},\"Function\":5},\"Name\":\"CountNonNull(Sheet1.TerritoryKey)\",\"NativeReferenceName\":\"TerritoryKey\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"s\"}},\"Property\":\"TerritoryKey\"}},\"Function\":5}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true}}",
+          "filters": "[]",
+          "height": 536.00,
+          "width": 456.00,
+          "x": 475.00,
+          "y": 184.00,
+          "z": 2.00
         }
       ],
       "width": 1280.00
